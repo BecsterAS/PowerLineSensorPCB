@@ -1044,13 +1044,13 @@
         "uuid": "6b3d7a89-016e-44cc-aa76-b24fbbba08cf"
       }
     ],
-    "used_designators": "H1-4,IC1,IC3,U1-2,U5,U9,U13,L4,L9,R90,R137-139,C34,C39,C41,D9-13,ANT1,#PWR1,#PWR69,#PWR111,#PWR122,#PWR127,#PWR139-155,J1,J4,J14-17",
+    "used_designators": "H1-4,IC1,IC3,U1-2,U5,U9,U13,L4,L9,R90,R137-139,C34,C39,C41,D9-13,ANT1,#PWR1,#PWR69,#PWR111,#PWR122,#PWR127,#PWR139-156,J1,J4,J14-17",
     "variants": []
   },
   "sheets": [
     [
       "6b3d7a89-016e-44cc-aa76-b24fbbba08cf",
-      "rb_pico_test"
+      "PowerLineSensorPCB"
     ],
     [
       "eec70212-a38a-46df-9214-2ed1263aeba7",
