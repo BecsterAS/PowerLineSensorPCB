@@ -983,7 +983,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "PartNumber"
+      "sort_field": "Reference"
     },
     "bus_aliases": {
       "I2C": [
@@ -1044,7 +1044,7 @@
         "uuid": "6b3d7a89-016e-44cc-aa76-b24fbbba08cf"
       }
     ],
-    "used_designators": "H1-4,IC1,IC3,U1-2,U5,U9,U13,L4,L9,R90,R137-139,C34,C39,C41,D9-13,ANT1,#PWR1,#PWR69,#PWR111,#PWR122,#PWR127,#PWR139-156,J1,J4,J14-17",
+    "used_designators": "H1-4,IC1,IC3,U1-2,U4-5,U9,U13,L4,L9,R90,R99-100,R137-139,C34,C39,C41,D9-13,ANT1,#PWR1,#PWR69,#PWR111,#PWR122,#PWR127,#PWR139-156,J1,J4,J14-17",
     "variants": []
   },
   "sheets": [

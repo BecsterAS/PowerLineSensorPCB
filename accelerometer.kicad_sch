@@ -1430,7 +1430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 166.37 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1441,7 +1441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 163.5252 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1474,7 +1474,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "CL05B104KO5NNNC"
+		(property "PartNumber" "1206B475K500NT"
 			(at 162.56 68.58 0)
 			(hide yes)
 			(show_name no)

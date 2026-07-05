@@ -1615,7 +1615,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "P3T1755"
 			(at 157.48 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1648,6 +1648,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "P3T1755 DP"
 			(at 157.48 115.57 0)
 			(hide yes)
 			(show_name no)

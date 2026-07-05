@@ -287,6 +287,278 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BC_Power:RT6150BGQW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RT6150BGQW_1_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "LX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -13.97 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 12.7 270)
+					(length 2.54)
+					(name "LX1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "PS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "VINA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -13.97 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -3057,288 +3329,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rb_pico:RT6150BGQW"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RT6150BGQW_1_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -11.43)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 12.7 270)
-					(length 2.54)
-					(name "LX2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -13.97 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 12.7 270)
-					(length 2.54)
-					(name "LX1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 3.81 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "PS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "VINA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -13.97 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -3.81 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -13.97 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 115.57 36.83)
@@ -3363,6 +3353,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "275d3215-2c38-4bbc-a5f0-81be47af36e1")
+	)
+	(junction
+		(at 217.17 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c8d0231-afa1-45ea-bb62-65e1bde0b13d")
 	)
 	(junction
 		(at 261.62 66.04)
@@ -3407,6 +3403,12 @@
 		(uuid "6c625853-7e63-4108-8d57-415ee3367484")
 	)
 	(junction
+		(at 219.71 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81e03303-42e5-4820-b014-2ae6bc0e6964")
+	)
+	(junction
 		(at 153.67 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3417,12 +3419,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9346c3f1-4aea-4334-8dd6-0ce79263d376")
-	)
-	(junction
-		(at 219.71 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "add82da5-4c94-4c01-98c9-fefc86690480")
 	)
 	(junction
 		(at 236.22 73.66)
@@ -3453,12 +3449,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce8b31ff-c084-4119-b335-d434d9b43964")
-	)
-	(junction
-		(at 217.17 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d88a9ab7-5cf2-4513-89b2-227d4fe35465")
 	)
 	(junction
 		(at 248.92 66.04)
@@ -3697,6 +3687,16 @@
 			(type default)
 		)
 		(uuid "18674b81-4f1c-49d1-b6d1-2081ef4ad64a")
+	)
+	(wire
+		(pts
+			(xy 217.17 82.55) (xy 219.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1890963e-937a-473f-baf4-3b8942e8eab2")
 	)
 	(wire
 		(pts
@@ -4047,16 +4047,6 @@
 			(type default)
 		)
 		(uuid "71b01243-e32c-404a-8bb4-b510de72cbbd")
-	)
-	(wire
-		(pts
-			(xy 217.17 82.55) (xy 219.71 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b051a8-3871-41cc-beeb-206cd0eeff60")
 	)
 	(wire
 		(pts
@@ -6078,7 +6068,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6626,6 +6616,17 @@
 				(justify left top)
 			)
 		)
+		(property "PartNumber" "BQ21080YBGR"
+			(at 201.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B1"
 			(uuid "c80d787d-01da-41b5-8eba-b47e4f51beac")
 		)
@@ -6928,6 +6929,124 @@
 			(project "PowerLineSensorPCB"
 				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/2337ac3c-0651-4671-bf50-47d5ed12eca2"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BC_Power:RT6150BGQW")
+		(at 217.17 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "540b21ff-dde8-41ae-8ab9-ea84f91e36f9")
+		(property "Reference" "U4"
+			(at 227.33 62.1598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RT6150BGQW"
+			(at 217.17 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+			(at 217.17 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "RT6150BGQW"
+			(at 217.17 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "0dc09d9b-16a3-446f-9755-d26637ae0ec2")
+		)
+		(pin "7"
+			(uuid "f1f23afc-c2f4-41ef-8ae2-d8fd88a46163")
+		)
+		(pin "4"
+			(uuid "e15d06e2-f9fe-4149-a340-e7586b6263a3")
+		)
+		(pin "11"
+			(uuid "1e650b8a-904a-419e-9402-e1e603e374e6")
+		)
+		(pin "9"
+			(uuid "faf50602-48ee-4b8c-89a6-ac60f4632e17")
+		)
+		(pin "8"
+			(uuid "860a21e7-71f4-4ad7-b9b3-c85bf20e1caa")
+		)
+		(pin "1"
+			(uuid "a79f50c6-d800-46c3-ac74-4432c09709a6")
+		)
+		(pin "2"
+			(uuid "bd8f9cab-3e0c-49e0-aef0-28165c9de988")
+		)
+		(pin "6"
+			(uuid "97a2f18f-d759-4fb6-aefd-a8148c7566fc")
+		)
+		(pin "10"
+			(uuid "0bf374a5-5f1e-4c46-aa4d-520374d31981")
+		)
+		(pin "3"
+			(uuid "693d98f7-9092-45db-86a1-c4679258c4cb")
+		)
+		(instances
+			(project "PowerLineSensorPCB"
+				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/2337ac3c-0651-4671-bf50-47d5ed12eca2"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8931,7 +9050,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9879,168 +9998,6 @@
 			(project "PowerLineSensorPCB"
 				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/2337ac3c-0651-4671-bf50-47d5ed12eca2"
 					(reference "R135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rb_pico:RT6150BGQW")
-		(at 217.17 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d17bd1ee-2461-460e-afaa-cace1b0b5278")
-		(property "Reference" "U4"
-			(at 227.33 62.1598 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 217.17 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
-			(at 217.17 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PartNumber" "RT6150AGQW"
-			(at 217.17 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 217.17 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 217.17 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 217.17 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 217.17 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0bfb11ce-2aca-4754-89a7-4b274a32471d")
-		)
-		(pin "5"
-			(uuid "6e0a4122-fed5-4462-bc23-7ee614c5ae36")
-		)
-		(pin "6"
-			(uuid "9ebe4e2d-72f7-489f-9bfc-ee83360a5054")
-		)
-		(pin "1"
-			(uuid "39f5059e-8012-4a34-9ede-39fadebc7f8c")
-		)
-		(pin "3"
-			(uuid "43de5400-be7c-4f9f-92b5-1ea555b3f4d4")
-		)
-		(pin "4"
-			(uuid "d9e39a17-69b2-46dc-8a22-764b6b65c322")
-		)
-		(pin "7"
-			(uuid "ad56dcad-6a39-4521-ab0a-9d54d30868fc")
-		)
-		(pin "8"
-			(uuid "09d6887d-f6dd-4b60-a681-219198d90e68")
-		)
-		(pin "9"
-			(uuid "2c7c1784-103c-4f5c-bdf6-c473f6f33c49")
-		)
-		(pin "10"
-			(uuid "43f94e86-4a17-4f50-a675-b1c8e48963f3")
-		)
-		(pin "11"
-			(uuid "9ca7975f-36a9-4b7f-a01d-e57afedcc344")
-		)
-		(instances
-			(project "PowerLineSensorPCB"
-				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/2337ac3c-0651-4671-bf50-47d5ed12eca2"
-					(reference "U4")
 					(unit 1)
 				)
 			)

@@ -5581,12 +5581,6 @@
 		(uuid "5cc29ef1-43b6-4bae-889b-fe79abd7b732")
 	)
 	(junction
-		(at 67.31 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07ee236b-2f01-427f-9308-d1ed3c0f6e27")
-	)
-	(junction
 		(at 41.91 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5705,12 +5699,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fe5fc4a-bf47-4e0c-99dd-c70d47f9dfc3")
-	)
-	(junction
-		(at 77.47 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "446f47ec-d702-4b7a-a218-c3c792173fcd")
 	)
 	(junction
 		(at 86.36 190.5)
@@ -6208,6 +6196,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 158.75) (xy 86.36 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bed744-5cbb-44e5-b032-44f43b49af79")
+	)
+	(wire
+		(pts
 			(xy 246.38 140.97) (xy 251.46 140.97)
 		)
 		(stroke
@@ -6448,7 +6446,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 158.75) (xy 86.36 158.75)
+			(xy 69.85 158.75) (xy 73.66 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6598,6 +6596,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 162.56) (xy 86.36 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7cf128-3f9a-4ace-a287-56ed692b6514")
+	)
+	(wire
+		(pts
 			(xy 44.45 64.77) (xy 33.02 64.77)
 		)
 		(stroke
@@ -6605,16 +6613,6 @@
 			(type default)
 		)
 		(uuid "3e940a89-cde2-4da4-ad3a-34b59fe15a2d")
-	)
-	(wire
-		(pts
-			(xy 67.31 24.13) (xy 77.47 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e9ab486-6cec-4af2-aa49-9922dcbb4d12")
 	)
 	(wire
 		(pts
@@ -7648,16 +7646,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 24.13) (xy 77.47 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "932059a8-14cb-4aed-bfce-f54f545aacc6")
-	)
-	(wire
-		(pts
 			(xy 101.6 171.45) (xy 101.6 182.88)
 		)
 		(stroke
@@ -7988,7 +7976,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 161.29) (xy 86.36 161.29)
+			(xy 76.2 162.56) (xy 86.36 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8145,16 +8133,6 @@
 			(type default)
 		)
 		(uuid "b829c183-8be2-4dcc-bf4a-708369c81501")
-	)
-	(wire
-		(pts
-			(xy 67.31 33.02) (xy 77.47 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8f584b7-e76d-4aaa-8935-c43dd20b4a6c")
 	)
 	(wire
 		(pts
@@ -8408,7 +8386,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 156.21) (xy 86.36 156.21)
+			(xy 74.93 156.21) (xy 86.36 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8498,7 +8476,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 24.13) (xy 87.63 24.13)
+			(xy 67.31 24.13) (xy 87.63 24.13)
 		)
 		(stroke
 			(width 0)
@@ -9387,7 +9365,7 @@
 		(uuid "72ed4da9-451a-4f54-8f88-b5b9af3d43c3")
 	)
 	(label "PPS"
-		(at 78.74 158.75 0)
+		(at 69.85 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9407,7 +9385,7 @@
 		(uuid "751e9e9e-31a5-4410-82da-7fe564747898")
 	)
 	(label "COEX0"
-		(at 78.74 156.21 0)
+		(at 74.93 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9927,7 +9905,7 @@
 		(uuid "ec84f198-6821-46f8-b3de-134dabc9a9a1")
 	)
 	(label "COEX2"
-		(at 78.74 161.29 0)
+		(at 76.2 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11806,6 +11784,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "PartNumber" "206760-0001"
+			(at 222.25 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14043,6 +14032,17 @@
 				(justify left top)
 			)
 		)
+		(property "PartNumber" "SKY65943-11"
+			(at 220.98 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "a69d2df5-66c5-4419-af6a-a6eaef084794")
 		)
@@ -15401,7 +15401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 181.61 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15412,7 +15412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 178.7652 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -15445,7 +15445,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "CL05B104KO5NNNC"
+		(property "PartNumber" "1206B475K500NT"
 			(at 177.8 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -16555,7 +16555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 60.452 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16566,7 +16566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 68.2752 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -16599,7 +16599,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "CL05B104KO5NNNC"
+		(property "PartNumber" "1206B475K500NT"
 			(at 67.31 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -17543,7 +17543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 42.8752 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -17576,7 +17576,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "CL05B104KO5NNNC"
+		(property "PartNumber" "CL31A476MPHNNNE"
 			(at 41.91 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -20172,6 +20172,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 77.47 158.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9dbfb354-2427-42cf-a641-52707b675ab4")
+		(property "Reference" "R100"
+			(at 82.804 157.734 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 77.47 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 77.47 160.528 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF1000TCE"
+			(at 77.47 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 77.47 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 77.47 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 77.47 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 77.47 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03390c3c-1464-4922-a261-dc1f90fc41b2")
+		)
+		(pin "2"
+			(uuid "3bafb391-f630-4136-bd25-f3e9a538371b")
+		)
+		(instances
+			(project "PowerLineSensorPCB"
+				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/32a23ef1-7c62-41c9-b51f-f71bd9f490a2"
+					(reference "R100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Memory_Flash:W25Q128JVE")
 		(at 38.1 110.49 0)
 		(mirror y)
@@ -20477,6 +20611,17 @@
 		)
 		(property "Description" "LTE-M/NB-IoT/DECT-NR+ SiP, ARM Cortex-M33, GNSS, LGA-100"
 			(at 119.38 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "nRF9151-A1"
+			(at 119.38 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22722,7 +22867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 252.73 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22733,7 +22878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 249.8852 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -22766,7 +22911,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "CL05B104KO5NNNC"
+		(property "PartNumber" "1206B475K500NT"
 			(at 248.92 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -23224,7 +23369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 162.56 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23235,7 +23380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 159.7152 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -23268,7 +23413,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "CL05B104KO5NNNC"
+		(property "PartNumber" "1206B475K500NT"
 			(at 158.75 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -24089,142 +24234,6 @@
 			(project "PowerLineSensorPCB"
 				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/32a23ef1-7c62-41c9-b51f-f71bd9f490a2"
 					(reference "R80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 77.47 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ea12fb35-dc5d-4216-905f-b4a16beb5817")
-		(property "Reference" "C40"
-			(at 70.612 28.194 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 70.612 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 78.4352 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 77.47 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PartNumber" "CL05B104KO5NNNC"
-			(at 77.47 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 77.47 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 77.47 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 77.47 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 77.47 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0db66e7f-64c5-4b02-9cac-602642ca1393")
-		)
-		(pin "1"
-			(uuid "598e6c45-f3b1-4c63-96cb-043142e59631")
-		)
-		(instances
-			(project "PowerLineSensorPCB"
-				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/32a23ef1-7c62-41c9-b51f-f71bd9f490a2"
-					(reference "C40")
 					(unit 1)
 				)
 			)

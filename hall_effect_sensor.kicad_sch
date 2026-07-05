@@ -1533,6 +1533,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 118.11) (xy 55.88 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f3c8f4-ec53-4c46-a39a-d1ec9aa1efcd")
+	)
+	(wire
+		(pts
 			(xy 76.2 166.37) (xy 76.2 171.45)
 		)
 		(stroke
@@ -1603,7 +1613,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 118.11) (xy 55.88 118.11)
+			(xy 39.37 118.11) (xy 44.45 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4220,6 +4230,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 48.26 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d446a732-f707-43cb-a32f-008b1c8bc3b1")
+		(property "Reference" "R99"
+			(at 47.244 116.078 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 48.26 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 48.26 119.888 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF1000TCE"
+			(at 48.26 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 48.26 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 48.26 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 48.26 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 48.26 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95f8da73-cc19-482b-b63d-ecee661a0fd8")
+		)
+		(pin "2"
+			(uuid "e7966ab9-1065-4038-a875-d9f59a8d53b1")
+		)
+		(instances
+			(project "PowerLineSensorPCB"
+				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/928b0f3b-3ed7-4d2a-bab4-19a7f307e03c"
+					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 68.58 0)
 		(mirror y)
@@ -5240,6 +5384,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 140.97 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "TMAG5253BA1"
 			(at 140.97 49.53 0)
 			(hide yes)
 			(show_name no)
