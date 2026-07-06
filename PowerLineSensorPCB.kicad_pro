@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -211,7 +211,8 @@
       ],
       "track_widths": [
         0.0,
-        0.12
+        0.12,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -688,7 +689,7 @@
         "line_style": 0,
         "name": "50ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6482,
         "tuning_profile": "",
@@ -702,7 +703,33 @@
         "line_style": 0,
         "name": "I2C",
         "pcb_color": "rgb(255, 75, 240)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.12,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 9
+      },
+      {
+        "bus_width": 20,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 15
+      },
+      {
+        "bus_width": 15,
+        "clearance": 0.12,
+        "line_style": 0,
+        "name": "Signal",
+        "pcb_color": "rgb(255, 26, 66)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "tuning_profile": "",
@@ -713,12 +740,11 @@
       {
         "bus_width": 15,
         "clearance": 0.12,
-        "line_style": 0,
-        "name": "Signal",
-        "pcb_color": "rgb(255, 26, 66)",
+        "name": "USB",
+        "pcb_color": "rgb(255, 22, 32)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.12,
+        "track_width": 0.19,
         "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.3,
@@ -730,6 +756,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+1V1": [
+        "Power"
+      ],
+      "+3.3V": [
+        "Power"
+      ],
       "/50Hz": [
         "Signal"
       ],
@@ -811,14 +843,20 @@
       "/Power/EXT_PWR{UART}": [
         "Signal"
       ],
+      "/Power/IN": [
+        "Power"
+      ],
+      "/Power/SYS": [
+        "Power"
+      ],
       "/Power/USB.DM": [
-        "Signal"
+        "USB"
       ],
       "/Power/USB.DP": [
-        "Signal"
+        "USB"
       ],
       "/Power/USB{USB}": [
-        "Signal"
+        "USB"
       ],
       "/RP_pico/A0": [
         "Signal"
@@ -883,6 +921,12 @@
       "Net-(C33-Pad1)": [
         "50ohm"
       ],
+      "Net-(D1-A)": [
+        "Power"
+      ],
+      "Net-(D3-A)": [
+        "Power"
+      ],
       "Net-(D9-A2)": [
         "50ohm"
       ],
@@ -931,6 +975,9 @@
       "Net-(R125-Pad1)": [
         "50ohm"
       ],
+      "Net-(R17-Pad2)": [
+        "Signal"
+      ],
       "Net-(U1-SCL)": [
         "I2C"
       ],
@@ -943,11 +990,20 @@
       "Net-(U10-SCL)": [
         "Signal"
       ],
+      "Net-(U11A--)": [
+        "Signal"
+      ],
       "Net-(U2-SCL)": [
         "I2C"
       ],
       "Net-(U2-SDA)": [
         "I2C"
+      ],
+      "Net-(U3-GPIO18)": [
+        "Signal"
+      ],
+      "Net-(U3-GPIO19)": [
+        "Signal"
       ],
       "Net-(U6-ANT)": [
         "50ohm"
@@ -957,6 +1013,9 @@
       ],
       "Net-(U6-SWDIO)": [
         "Signal"
+      ],
+      "Net-(U6-VDD)": [
+        "Power"
       ],
       "Net-(U7-SA0{slash}SDO)": [
         "Signal"
@@ -1209,7 +1268,7 @@
         "uuid": "6b3d7a89-016e-44cc-aa76-b24fbbba08cf"
       }
     ],
-    "used_designators": "H1-4,IC1,IC3,R90,R99-100,R137-139,U1-2,U4-5,U9-10,U13,L4,L9,D9-13,C34,C39,C41,ANT1,#PWR1,#PWR69,#PWR111,#PWR122,#PWR127,#PWR139-156,J1,J4,J14-17",
+    "used_designators": "H1-4,IC1,IC3,R90,R99-101,R137-139,U1-2,U4-5,U9-10,U13,L4,L9,D9-14,C34,C39-41,ANT1,#PWR1,#PWR69,#PWR111,#PWR122,#PWR127,#PWR139-158,J1,J4,J14-17",
     "variants": []
   },
   "sheets": [

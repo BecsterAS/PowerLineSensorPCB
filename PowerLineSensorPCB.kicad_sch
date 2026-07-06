@@ -1223,15 +1223,15 @@
 			(justify left bottom)
 		)
 		(uuid "e5afed16-ab04-4399-a320-c7ec3b783cb5")
-		(property "Netclass" "Signal"
-			(at 120.0404 66.04 0)
+		(property "Netclass" "USB"
+			(at 121.2596 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Component Class" ""
@@ -2384,7 +2384,7 @@
 				(justify left)
 			)
 		)
-		(pin "A1" input
+		(pin "A2" input
 			(at 163.83 85.09 0)
 			(uuid "31288d32-10bc-47c5-8c7d-e629c4d6a8ca")
 			(effects
@@ -2394,7 +2394,7 @@
 				(justify right)
 			)
 		)
-		(pin "A2" input
+		(pin "A1" input
 			(at 163.83 91.44 0)
 			(uuid "7612c9bb-886b-44a0-b572-4a5fd66ad1e1")
 			(effects

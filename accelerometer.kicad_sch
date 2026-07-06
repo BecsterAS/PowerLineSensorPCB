@@ -1441,7 +1441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.5252 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1474,7 +1474,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "1206B475K500NT"
+		(property "PartNumber" "CL05A475MP5NRNC"
 			(at 162.56 68.58 0)
 			(hide yes)
 			(show_name no)

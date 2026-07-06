@@ -10122,6 +10122,42 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 93.98 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44102723-cb42-4ff3-901e-d90cf284fbef")
+		(property "Netclass" "Power"
+			(at 94.5896 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 74.93 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 203.2 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15412,7 +15448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 178.7652 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -15445,7 +15481,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "1206B475K500NT"
+		(property "PartNumber" "CL05A475MP5NRNC"
 			(at 177.8 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -16566,7 +16602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 68.2752 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -16599,7 +16635,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "1206B475K500NT"
+		(property "PartNumber" "CL05A475MP5NRNC"
 			(at 67.31 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -17269,7 +17305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 28.9052 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -17302,7 +17338,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "1206B475K500NT"
+		(property "PartNumber" "CL05A475MP5NRNC"
 			(at 27.94 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22878,7 +22914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 249.8852 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -22911,7 +22947,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "1206B475K500NT"
+		(property "PartNumber" "CL05A475MP5NRNC"
 			(at 248.92 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -23380,7 +23416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 159.7152 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -23413,7 +23449,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "1206B475K500NT"
+		(property "PartNumber" "CL05A475MP5NRNC"
 			(at 158.75 46.99 0)
 			(hide yes)
 			(show_name no)
