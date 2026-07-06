@@ -146,12 +146,12 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.4,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -159,9 +159,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -210,7 +210,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.12
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -242,6 +243,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -262,7 +271,144 @@
         "topLayer": 0
       }
     ],
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          0,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          25,
+          26,
+          28,
+          30,
+          31,
+          32,
+          34,
+          36,
+          37,
+          38,
+          40,
+          42,
+          44,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "name": "top_component",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "drc_exclusions",
+          "locked_item_shadows",
+          "conflict_shadows",
+          "shapes",
+          "board_outline_area",
+          "ly_points"
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],
@@ -519,7 +665,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -530,9 +676,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.12,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -542,21 +688,40 @@
         "line_style": 0,
         "name": "50ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6482,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 12
       },
       {
         "bus_width": 15,
+        "clearance": 0.12,
         "line_style": 0,
-        "name": "Signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "I2C",
+        "pcb_color": "rgb(255, 75, 240)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.12,
         "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 9
+      },
+      {
+        "bus_width": 15,
+        "clearance": 0.12,
+        "line_style": 0,
+        "name": "Signal",
+        "pcb_color": "rgb(255, 26, 66)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.12,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 9
       }
     ],
@@ -620,13 +785,13 @@
         "Signal"
       ],
       "/I2C0.SCL": [
-        "Signal"
+        "I2C"
       ],
       "/I2C0.SDA": [
-        "Signal"
+        "I2C"
       ],
       "/I2C0{I2C}": [
-        "Signal"
+        "I2C"
       ],
       "/LORA/LORA.RX": [
         "Signal"
@@ -767,10 +932,10 @@
         "50ohm"
       ],
       "Net-(U1-SCL)": [
-        "Signal"
+        "I2C"
       ],
       "Net-(U1-SDA)": [
-        "Signal"
+        "I2C"
       ],
       "Net-(U10-A0)": [
         "Signal"
@@ -779,10 +944,10 @@
         "Signal"
       ],
       "Net-(U2-SCL)": [
-        "Signal"
+        "I2C"
       ],
       "Net-(U2-SDA)": [
-        "Signal"
+        "I2C"
       ],
       "Net-(U6-ANT)": [
         "50ohm"
@@ -800,10 +965,10 @@
         "50ohm"
       ],
       "Net-(U9-A0)": [
-        "Signal"
+        "I2C"
       ],
       "Net-(U9-SCL)": [
-        "Signal"
+        "I2C"
       ]
     },
     "netclass_patterns": []
@@ -1044,7 +1209,7 @@
         "uuid": "6b3d7a89-016e-44cc-aa76-b24fbbba08cf"
       }
     ],
-    "used_designators": "H1-4,IC1,IC3,U1-2,U4-5,U9,U13,L4,L9,R90,R99-100,R137-139,C34,C39,C41,D9-13,ANT1,#PWR1,#PWR69,#PWR111,#PWR122,#PWR127,#PWR139-156,J1,J4,J14-17",
+    "used_designators": "H1-4,IC1,IC3,R90,R99-100,R137-139,U1-2,U4-5,U9-10,U13,L4,L9,D9-13,C34,C39,C41,ANT1,#PWR1,#PWR69,#PWR111,#PWR122,#PWR127,#PWR139-156,J1,J4,J14-17",
     "variants": []
   },
   "sheets": [

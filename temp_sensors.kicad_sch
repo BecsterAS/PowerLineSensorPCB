@@ -1591,7 +1591,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 143.51 71.12 0)
+		(at 144.78 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1599,9 +1599,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1d9108d8-e505-4021-8f7f-3e00bb887e43")
-		(property "Netclass" "Signal"
-			(at 144.1196 68.58 0)
+		(uuid "583b1eae-1a80-4d94-a0e1-78c11647556b")
+		(property "Netclass" "I2C"
+			(at 145.3896 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1612,7 +1612,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 162.56 55.88 0)
+			(at 163.83 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1626,7 +1626,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 143.51 93.98 0)
+		(at 144.78 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1634,9 +1634,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "700cf6af-2f47-4c64-aa9d-4746d730a1bc")
-		(property "Netclass" "Signal"
-			(at 144.1196 91.44 0)
+		(uuid "6e6212bc-e271-4640-8a7c-b0bafc68ad3c")
+		(property "Netclass" "I2C"
+			(at 145.3896 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1647,7 +1647,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 162.56 78.74 0)
+			(at 163.83 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1661,7 +1661,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 143.51 74.93 0)
+		(at 144.78 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1669,9 +1669,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c93d6c05-2b45-4d5d-9a5e-2401dd1ff158")
-		(property "Netclass" "Signal"
-			(at 144.1196 72.39 0)
+		(uuid "a794ead4-afeb-4f91-9765-290f00c3a8e7")
+		(property "Netclass" "I2C"
+			(at 145.3896 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1682,7 +1682,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 162.56 59.69 0)
+			(at 163.83 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1696,7 +1696,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 143.51 99.06 0)
+		(at 144.78 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1704,9 +1704,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e76edcb1-43eb-40f1-957e-cb7bcfd63a9a")
-		(property "Netclass" "Signal"
-			(at 144.1196 96.52 0)
+		(uuid "ccc9b0bf-4b53-4f66-b4fe-988f082510d8")
+		(property "Netclass" "I2C"
+			(at 145.3896 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1717,7 +1717,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 162.56 83.82 0)
+			(at 163.83 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

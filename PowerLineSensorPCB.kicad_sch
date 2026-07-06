@@ -977,7 +977,7 @@
 			(justify left bottom)
 		)
 		(uuid "361bd173-d36f-446c-ba25-6fa98d3c399b")
-		(property "Netclass" "Signal"
+		(property "Netclass" "I2C"
 			(at 107.2896 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
