@@ -452,16 +452,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 85.09) (xy 186.69 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0919932f-7554-451a-a81d-27beb2435e9f")
-	)
-	(wire
-		(pts
 			(xy 248.92 130.81) (xy 248.92 134.62)
 		)
 		(stroke
@@ -532,13 +522,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 87.63) (xy 182.88 87.63)
+			(xy 163.83 87.63) (xy 181.61 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33c8bc77-8244-45cd-a4fb-d87b7508c469")
+		(uuid "39608dae-6abb-4a73-b980-6892c3aac9e4")
 	)
 	(bus
 		(pts
@@ -592,16 +582,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 91.44) (xy 170.18 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51090bf2-9cf4-4c91-8c59-189dedc2956e")
-	)
-	(wire
-		(pts
 			(xy 99.06 85.09) (xy 124.46 85.09)
 		)
 		(stroke
@@ -632,7 +612,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 125.73) (xy 182.88 125.73)
+			(xy 208.28 125.73) (xy 177.8 125.73)
 		)
 		(stroke
 			(width 0)
@@ -649,6 +629,16 @@
 			(type default)
 		)
 		(uuid "677c1c01-c860-4085-889c-4bfbb0605e48")
+	)
+	(wire
+		(pts
+			(xy 163.83 95.25) (xy 170.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c564ec-250f-4b2b-ae46-38669b25cbf4")
 	)
 	(bus
 		(pts
@@ -672,17 +662,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 78.74) (xy 190.5 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6966f64e-f158-4e49-a806-c9196c60882f")
-	)
-	(wire
-		(pts
-			(xy 163.83 82.55) (xy 176.53 82.55)
+			(xy 163.83 74.93) (xy 176.53 74.93)
 		)
 		(stroke
 			(width 0)
@@ -702,7 +682,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 101.6) (xy 208.28 101.6)
+			(xy 163.83 83.82) (xy 185.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6d8200-d117-4ceb-86d7-742678cb8004")
+	)
+	(wire
+		(pts
+			(xy 185.42 101.6) (xy 208.28 101.6)
 		)
 		(stroke
 			(width 0)
@@ -742,7 +732,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 134.62) (xy 170.18 91.44)
+			(xy 170.18 134.62) (xy 170.18 95.25)
 		)
 		(stroke
 			(width 0)
@@ -780,6 +770,16 @@
 		)
 		(uuid "aad606ee-e859-4a8d-8163-3e2abb951627")
 	)
+	(wire
+		(pts
+			(xy 163.83 91.44) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff6404e-bb90-4c06-9f96-885d1082f1d4")
+	)
 	(bus
 		(pts
 			(xy 194.31 39.37) (xy 194.31 49.53)
@@ -802,7 +802,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 101.6) (xy 190.5 78.74)
+			(xy 185.42 101.6) (xy 185.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -812,7 +812,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 123.19) (xy 186.69 85.09)
+			(xy 181.61 123.19) (xy 181.61 87.63)
 		)
 		(stroke
 			(width 0)
@@ -842,7 +842,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 123.19) (xy 186.69 123.19)
+			(xy 208.28 123.19) (xy 181.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -852,7 +852,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 125.73) (xy 182.88 87.63)
+			(xy 177.8 125.73) (xy 177.8 91.44)
 		)
 		(stroke
 			(width 0)
@@ -921,7 +921,7 @@
 		(uuid "818c6d88-5721-4134-9f30-892f76ea90ed")
 	)
 	(label "50Hz"
-		(at 176.53 82.55 180)
+		(at 176.53 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -933,7 +933,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 167.64 87.63 0)
+		(at 167.64 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -943,7 +943,7 @@
 		)
 		(uuid "2ff2d93b-6d10-475d-a65f-99d270486191")
 		(property "Netclass" "Signal"
-			(at 168.2496 85.09 0)
+			(at 168.2496 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -954,7 +954,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 186.69 72.39 0)
+			(at 186.69 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1073,7 +1073,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 167.64 82.55 0)
+		(at 167.64 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1083,7 +1083,7 @@
 		)
 		(uuid "a4eb0af8-8f7c-46dd-99db-65e0fec54136")
 		(property "Netclass" "Signal"
-			(at 168.2496 80.01 0)
+			(at 168.2496 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1094,7 +1094,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 186.69 67.31 0)
+			(at 186.69 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1108,7 +1108,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 167.64 78.74 0)
+		(at 167.64 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1118,7 +1118,7 @@
 		)
 		(uuid "b6a1c9c5-6666-4421-a9b4-d1b9cb301648")
 		(property "Netclass" "Signal"
-			(at 168.2496 76.2 0)
+			(at 168.2496 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1129,7 +1129,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 186.69 63.5 0)
+			(at 186.69 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1143,7 +1143,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 167.64 85.09 0)
+		(at 167.64 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1153,7 +1153,7 @@
 		)
 		(uuid "c5c48df9-7e67-463d-b4f2-6403bc8d8d1b")
 		(property "Netclass" "Signal"
-			(at 168.2496 82.55 0)
+			(at 168.2496 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1164,7 +1164,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 186.69 69.85 0)
+			(at 186.69 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1285,7 +1285,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 167.64 91.44 0)
+		(at 167.64 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1295,7 +1295,7 @@
 		)
 		(uuid "eacfc6fe-29d0-4124-a685-5d0dba7a343c")
 		(property "Netclass" "Signal"
-			(at 168.2496 88.9 0)
+			(at 168.2496 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1306,7 +1306,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 186.69 76.2 0)
+			(at 186.69 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2335,7 +2335,7 @@
 			)
 		)
 		(pin "A0" input
-			(at 163.83 78.74 0)
+			(at 163.83 95.25 0)
 			(uuid "87b80153-2e55-4182-8d77-3cfc675883c4")
 			(effects
 				(font
@@ -2385,7 +2385,7 @@
 			)
 		)
 		(pin "A2" input
-			(at 163.83 85.09 0)
+			(at 163.83 91.44 0)
 			(uuid "31288d32-10bc-47c5-8c7d-e629c4d6a8ca")
 			(effects
 				(font
@@ -2395,7 +2395,7 @@
 			)
 		)
 		(pin "A1" input
-			(at 163.83 91.44 0)
+			(at 163.83 87.63 0)
 			(uuid "7612c9bb-886b-44a0-b572-4a5fd66ad1e1")
 			(effects
 				(font
@@ -2404,8 +2404,8 @@
 				(justify right)
 			)
 		)
-		(pin "EN_hall" output
-			(at 163.83 87.63 0)
+		(pin "A3" input
+			(at 163.83 83.82 0)
 			(uuid "c9f648cb-9f10-4121-9046-10f95a3d752d")
 			(effects
 				(font
@@ -2425,7 +2425,7 @@
 			)
 		)
 		(pin "50Hz" input
-			(at 163.83 82.55 0)
+			(at 163.83 74.93 0)
 			(uuid "a1aa2bb1-728d-48d5-803a-499b23cea0a3")
 			(effects
 				(font

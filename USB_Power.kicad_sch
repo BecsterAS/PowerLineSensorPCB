@@ -6670,177 +6670,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BC_Power:BQ21080YBGR")
-		(at 201.93 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47625a2a-c3ab-40b0-983e-d7de5920a2c1")
-		(property "Reference" "IC2"
-			(at 215.9 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BQ21080YBGR"
-			(at 215.9 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BC_Power:BGA8C40P2X4_100X155X50"
-			(at 226.06 235.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq21080.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1697164795792&ref_url=https%253A%252F%252Fwww.mouser.kr%252F"
-			(at 226.06 335.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Battery Management 800-mA Li-ion and LiFePO4 IC programmable linear charger with regulated power path in WCSP package"
-			(at 201.93 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.5"
-			(at 226.06 535.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-BQ21080YBGR"
-			(at 226.06 635.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ21080YBGR?qs=amGC7iS6iy9sW%252B8sMo%2Facg%3D%3D"
-			(at 226.06 735.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 226.06 835.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BQ21080YBGR"
-			(at 226.06 935.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "PartNumber" "BQ21080YBGR"
-			(at 201.93 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B1"
-			(uuid "c80d787d-01da-41b5-8eba-b47e4f51beac")
-		)
-		(pin "C1"
-			(uuid "6575eb3c-8718-4d6b-b983-6548e28045a6")
-		)
-		(pin "B2"
-			(uuid "17bb82cd-6774-49d0-8d2f-bab7f5ae43b8")
-		)
-		(pin "D2"
-			(uuid "49ff38e3-45ab-47a9-9d78-374172d43258")
-		)
-		(pin "A2"
-			(uuid "d37263fc-e580-4e62-b535-98015f174868")
-		)
-		(pin "C2"
-			(uuid "b7c56b69-c02f-4581-8bbe-fdf9984334d2")
-		)
-		(pin "A1"
-			(uuid "981667df-9e2b-4c4f-b4df-351a418d155d")
-		)
-		(pin "D1"
-			(uuid "ca0d1748-e13b-4d8e-a316-0ea283658261")
-		)
-		(instances
-			(project "PowerLineSensorPCB"
-				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/2337ac3c-0651-4671-bf50-47d5ed12eca2"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
 		(at 172.72 34.29 90)
 		(unit 1)
@@ -10547,6 +10376,176 @@
 			(project "PowerLineSensorPCB"
 				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/2337ac3c-0651-4671-bf50-47d5ed12eca2"
 					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BC_Power:BQ21080YBGR")
+		(at 201.93 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e88de32c-52f2-4e93-a71a-2fc636c8adf9")
+		(property "Reference" "IC2"
+			(at 215.9 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ21080YBGR"
+			(at 215.9 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BC_Power:BGA8C40P2X4_100X155X50"
+			(at 226.06 235.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq21080.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1697164795792&ref_url=https%253A%252F%252Fwww.mouser.kr%252F"
+			(at 226.06 335.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Battery Management 800-mA Li-ion and LiFePO4 IC programmable linear charger with regulated power path in WCSP package"
+			(at 201.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.5"
+			(at 226.06 535.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-BQ21080YBGR"
+			(at 226.06 635.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ21080YBGR?qs=amGC7iS6iy9sW%252B8sMo%2Facg%3D%3D"
+			(at 226.06 735.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 226.06 835.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BQ21080YBGR"
+			(at 226.06 935.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "PartNumber" "BQ21080YBGR"
+			(at 201.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B1"
+			(uuid "316b6455-bdbc-428e-8da2-4d66c6d7eee4")
+		)
+		(pin "C1"
+			(uuid "ad722d69-c6a1-4ac5-9b12-e5f03a8dfdb3")
+		)
+		(pin "B2"
+			(uuid "93aa8e28-1645-4605-8bbf-fac4fd6e821c")
+		)
+		(pin "D2"
+			(uuid "c1f35952-546c-4d3d-9563-40f7cd9fc690")
+		)
+		(pin "A2"
+			(uuid "113cda26-0004-4d22-aa9a-37d80fe91c95")
+		)
+		(pin "C2"
+			(uuid "469456ad-2a08-4433-b72f-bce9c8b6ffde")
+		)
+		(pin "A1"
+			(uuid "e2a1372f-9291-44e0-9993-fb0c3160f8e4")
+		)
+		(pin "D1"
+			(uuid "f339f24d-f950-4052-9458-27b8a661e3a4")
+		)
+		(instances
+			(project "PowerLineSensorPCB"
+				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/2337ac3c-0651-4671-bf50-47d5ed12eca2"
+					(reference "IC2")
 					(unit 1)
 				)
 			)

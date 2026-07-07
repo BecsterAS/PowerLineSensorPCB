@@ -1168,6 +1168,12 @@
 		(uuid "86e4833b-ddb4-45d9-ad30-82e5448af944")
 	)
 	(junction
+		(at 39.37 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ea5124b-d6e8-4c29-a4e8-c7b8368550c0")
+	)
+	(junction
 		(at 171.45 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1193,6 +1199,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 165.1) (xy 39.37 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d0d601-69a7-432b-a3dc-e9c2eb7a3533")
+	)
+	(wire
+		(pts
 			(xy 106.68 48.26) (xy 132.08 48.26)
 		)
 		(stroke
@@ -1210,6 +1226,16 @@
 			(type default)
 		)
 		(uuid "0fdb04ab-3192-4df7-9dd6-809d2fa01f44")
+	)
+	(wire
+		(pts
+			(xy 29.21 168.91) (xy 29.21 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127a34bd-7c9e-4d81-bec8-2dba54d11476")
 	)
 	(wire
 		(pts
@@ -1300,6 +1326,16 @@
 			(type default)
 		)
 		(uuid "4143c626-1efa-4c25-9d39-c46e761c80a2")
+	)
+	(wire
+		(pts
+			(xy 29.21 165.1) (xy 39.37 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4538aeca-612f-4a50-89f8-37ebdf909579")
 	)
 	(wire
 		(pts
@@ -1683,6 +1719,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 163.83) (xy 39.37 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1cc67c-e3f0-4fd3-bfda-0cdb378f4b35")
+	)
+	(wire
+		(pts
 			(xy 25.4 21.59) (xy 44.45 21.59)
 		)
 		(stroke
@@ -1876,8 +1922,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 39.37 166.37 0)
-		(mirror y)
+		(at 39.37 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1885,10 +1930,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0086ccad-05c0-4d1b-9e04-3538ef36db28")
 		(property "Reference" "#PWR078"
-			(at 39.37 170.18 0)
+			(at 39.37 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1899,7 +1943,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 39.37 161.29 0)
+			(at 39.37 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1909,7 +1953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 166.37 0)
+			(at 39.37 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1920,7 +1964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 166.37 0)
+			(at 39.37 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1931,7 +1975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 39.37 166.37 0)
+			(at 39.37 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2450,6 +2494,144 @@
 			(project "PowerLineSensorPCB"
 				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/928b0f3b-3ed7-4d2a-bab4-19a7f307e03c"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 29.21 172.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1db0afd1-769c-4936-a6cd-9a5ca42c1bc6")
+		(property "Reference" "C42"
+			(at 25.4 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 25.4 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 28.2448 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 29.21 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "CL05B104KO5NNNC"
+			(at 29.21 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 29.21 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 29.21 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 29.21 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 29.21 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b44768bb-771c-41b9-9611-4f1399ceb03f")
+		)
+		(pin "1"
+			(uuid "4e733b68-1fc9-4b4a-bc0b-75bd2b12cdb1")
+		)
+		(instances
+			(project "PowerLineSensorPCB"
+				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/928b0f3b-3ed7-4d2a-bab4-19a7f307e03c"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -4913,6 +5095,85 @@
 			(project "PowerLineSensorPCB"
 				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/928b0f3b-3ed7-4d2a-bab4-19a7f307e03c"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 176.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e79117fc-2e62-400a-a3cd-27f0b5e669a7")
+		(property "Reference" "#PWR0158"
+			(at 29.21 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ea79282-1ce5-47c7-b385-f698cb3825c8")
+		)
+		(instances
+			(project "PowerLineSensorPCB"
+				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/928b0f3b-3ed7-4d2a-bab4-19a7f307e03c"
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)

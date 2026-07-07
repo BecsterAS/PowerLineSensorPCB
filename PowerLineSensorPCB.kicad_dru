@@ -1,5 +1,0 @@
-(version 1)
-
-(rule "USB clearance to GND planes 0.3mm"
-  (constraint clearance (min 0.30mm))
-  (condition "A.NetClass == 'USB' && B.NetName == 'GND'"))

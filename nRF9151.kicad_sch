@@ -9104,7 +9104,7 @@
 		)
 		(uuid "3b0bd779-b5ec-4b88-bd86-f0d0f01c1e3f")
 	)
-	(label "SC"
+	(label "SD"
 		(at 226.06 143.51 0)
 		(effects
 			(font
@@ -9544,6 +9544,16 @@
 		)
 		(uuid "8e8bc489-12e9-44d2-acb2-866294645d15")
 	)
+	(label "SC"
+		(at 226.06 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91780cd9-839d-41e2-8724-9fcb110a3231")
+	)
 	(label "U8"
 		(at 82.55 72.39 0)
 		(effects
@@ -9723,16 +9733,6 @@
 			(justify left bottom)
 		)
 		(uuid "bab7cd8e-9f2b-4483-85ce-83dd941de080")
-	)
-	(label "SD"
-		(at 226.06 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bcc58f7e-bda0-4827-a77b-7ddbf2dabc2a")
 	)
 	(label "U11"
 		(at 82.55 80.01 0)
