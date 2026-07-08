@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "BC_Sensors") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/footprints/BC_Sensors.pretty") (options "") (descr ""))
+	(lib (name "BC_RF") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/footprints/BC_RF.pretty") (options "") (descr ""))
+	(lib (name "BC_Processors") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/footprints/BC_Processors.pretty") (options "") (descr ""))
+	(lib (name "BC_Power") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/footprints/BC_Power.pretty") (options "") (descr ""))
+	(lib (name "BC_Passive") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/footprints/BC_Passive.pretty") (options "") (descr ""))
+	(lib (name "BC_Miscellaneous") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/footprints/BC_Miscellaneous.pretty") (options "") (descr ""))
+	(lib (name "BC_Memory") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/footprints/BC_Memory.pretty") (options "") (descr ""))
+)

@@ -1,0 +1,9 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "BC_Memory") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/symbols/BC_Memory.kicad_sym") (options "") (descr ""))
+	(lib (name "BC_Miscellaneous") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/symbols/BC_Miscellaneous.kicad_sym") (options "") (descr ""))
+	(lib (name "BC_Power") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/symbols/BC_Power.kicad_sym") (options "") (descr ""))
+	(lib (name "BC_Processors") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/symbols/BC_Processors.kicad_sym") (options "") (descr ""))
+	(lib (name "BC_RF") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/symbols/BC_RF.kicad_sym") (options "") (descr ""))
+	(lib (name "BC_Sensors") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/symbols/BC_Sensors.kicad_sym") (options "") (descr ""))
+)

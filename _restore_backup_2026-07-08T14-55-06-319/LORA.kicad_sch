@@ -5913,7 +5913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BC_Processors:RAK3172"
+		(property "Footprint" "RF_Module:RAK3172"
 			(at 139.7 135.382 0)
 			(hide yes)
 			(show_name no)
