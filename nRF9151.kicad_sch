@@ -20351,7 +20351,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9e6e56aa-2353-4c83-8082-3471918a2983")
 		(property "Reference" "U13"
 			(at 26.67 109.2199 0)
@@ -20375,7 +20375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+		(property "Footprint" "BC_Memory:W25Q"
 			(at 38.1 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20600,7 +20600,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a4ccb11a-0aef-4a69-aef2-99b0ba12d57d")
 		(property "Reference" "U6"

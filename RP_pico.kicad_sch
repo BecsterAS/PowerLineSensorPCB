@@ -3921,6 +3921,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 119.38) (xy 173.99 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bd7bad-d37b-4c09-afdd-61af8ef0b4b0")
+	)
+	(wire
+		(pts
 			(xy 102.87 109.22) (xy 114.3 109.22)
 		)
 		(stroke
@@ -3948,16 +3958,6 @@
 			(type default)
 		)
 		(uuid "35f0ba14-014a-4e4a-bb3e-189e3dd50cd1")
-	)
-	(wire
-		(pts
-			(xy 165.1 119.38) (xy 166.37 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37ce054c-e36a-497f-a605-f9418ce8ead9")
 	)
 	(wire
 		(pts
@@ -3998,6 +3998,16 @@
 			(type default)
 		)
 		(uuid "440ae7f3-18e9-418e-9ba8-063a8a900371")
+	)
+	(wire
+		(pts
+			(xy 181.61 119.38) (xy 199.39 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464f1a74-0968-4326-a63b-21503d755c90")
 	)
 	(wire
 		(pts
@@ -5291,16 +5301,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 119.38) (xy 199.39 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e75fea35-bd41-4f78-b356-123344237a7a")
-	)
-	(wire
-		(pts
 			(xy 102.87 114.3) (xy 114.3 114.3)
 		)
 		(stroke
@@ -6322,7 +6322,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 180.34 119.38 0)
+		(at 187.96 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6332,7 +6332,7 @@
 		)
 		(uuid "0fd5e5cd-046b-4793-8281-ab2478f839b2")
 		(property "Netclass" "Signal"
-			(at 180.9496 116.84 0)
+			(at 188.5696 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6343,7 +6343,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 199.39 104.14 0)
+			(at 207.01 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9648,7 +9648,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "682998ee-1a86-41a8-8e67-9f739be07c9d")
 		(property "Reference" "U12"
 			(at 27.94 175.2599 0)
@@ -9672,7 +9672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+		(property "Footprint" "BC_Memory:W25Q"
 			(at 39.37 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9745,6 +9745,10 @@
 		)
 		(instances
 			(project "PowerLineSensorPCB"
+				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/14b821c4-7c41-42c4-a587-dc590b7e8e40"
+					(reference "U12")
+					(unit 1)
+				)
 				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/eec70212-a38a-46df-9214-2ed1263aeba7"
 					(reference "U12")
 					(unit 1)
@@ -13273,7 +13277,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 119.38 90)
+		(at 177.8 119.38 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13283,7 +13287,7 @@
 		(dnp no)
 		(uuid "c1df9ebe-9987-44ed-9c93-be6e1eaf10ea")
 		(property "Reference" "R38"
-			(at 175.514 117.856 90)
+			(at 183.134 117.856 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13293,7 +13297,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 170.18 119.38 90)
+			(at 177.8 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13303,7 +13307,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 170.18 121.158 90)
+			(at 177.8 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13314,7 +13318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 119.38 0)
+			(at 177.8 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13325,7 +13329,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 119.38 0)
+			(at 177.8 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13336,7 +13340,7 @@
 			)
 		)
 		(property "PartNumber" "0402WGF1000TCE"
-			(at 170.18 119.38 90)
+			(at 177.8 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13347,7 +13351,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 170.18 119.38 90)
+			(at 177.8 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13358,7 +13362,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 170.18 119.38 90)
+			(at 177.8 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13369,7 +13373,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 170.18 119.38 90)
+			(at 177.8 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13380,7 +13384,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 170.18 119.38 90)
+			(at 177.8 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

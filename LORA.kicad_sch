@@ -5888,7 +5888,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7288c3e6-ae68-4d09-b84a-24bd19ddabcb")
 		(property "Reference" "U8"

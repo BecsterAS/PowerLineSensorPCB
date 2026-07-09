@@ -3421,6 +3421,12 @@
 		(uuid "9346c3f1-4aea-4334-8dd6-0ce79263d376")
 	)
 	(junction
+		(at 251.46 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dcb2ef5-8483-4b99-aead-6d64c325b915")
+	)
+	(junction
 		(at 236.22 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3570,6 +3576,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 144.78) (xy 251.46 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061f1c18-f038-4a18-b9db-594bbb5c8d60")
+	)
+	(wire
+		(pts
 			(xy 66.04 96.52) (xy 66.04 95.25)
 		)
 		(stroke
@@ -3660,6 +3676,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 143.51) (xy 265.43 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f6d655-394e-4520-b479-7077c7e0e696")
+	)
+	(wire
+		(pts
 			(xy 214.63 54.61) (xy 213.36 54.61)
 		)
 		(stroke
@@ -3687,6 +3713,16 @@
 			(type default)
 		)
 		(uuid "18674b81-4f1c-49d1-b6d1-2081ef4ad64a")
+	)
+	(wire
+		(pts
+			(xy 251.46 152.4) (xy 251.46 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1884b584-f0ad-446c-9c15-bb3de4aaa47f")
 	)
 	(wire
 		(pts
@@ -4230,7 +4266,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 143.51) (xy 261.62 144.78)
+			(xy 265.43 143.51) (xy 265.43 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4450,7 +4486,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 143.51) (xy 261.62 143.51)
+			(xy 229.87 143.51) (xy 251.46 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4460,7 +4496,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 152.4) (xy 261.62 153.67)
+			(xy 265.43 152.4) (xy 265.43 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5517,6 +5553,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 251.46 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0daaf987-a27b-44a6-bd6f-7c733e82858d")
+		(property "Reference" "C43"
+			(at 255.27 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 255.27 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 252.4252 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 251.46 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "CL05A475MP5NRNC"
+			(at 251.46 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 251.46 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 251.46 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 251.46 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "25fa8e69-5492-47c6-9a0f-b0614fa5333d")
+		)
+		(pin "1"
+			(uuid "468de720-a73a-414b-877d-ec901c0b730f")
+		)
+		(instances
+			(project "PowerLineSensorPCB"
+				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/2337ac3c-0651-4671-bf50-47d5ed12eca2"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 115.57 43.18 0)
 		(unit 1)
@@ -6088,7 +6261,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 153.67 0)
+		(at 265.43 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6099,7 +6272,7 @@
 		(fields_autoplaced yes)
 		(uuid "30aef011-17ee-4d0a-9526-510307ec9cef")
 		(property "Reference" "#PWR065"
-			(at 261.62 160.02 0)
+			(at 265.43 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6110,7 +6283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 158.75 0)
+			(at 265.43 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6120,7 +6293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 153.67 0)
+			(at 265.43 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6131,7 +6304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 153.67 0)
+			(at 265.43 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6142,7 +6315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 153.67 0)
+			(at 265.43 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7893,7 +8066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "BC_Miscellaneous:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8151,7 +8324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 238.76 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -9266,6 +9439,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 251.46 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba8e7187-027f-43b1-83c9-347c78135453")
+		(property "Reference" "#PWR0159"
+			(at 251.46 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f85b692-7aa5-4538-b291-d784e8f74024")
+		)
+		(instances
+			(project "PowerLineSensorPCB"
+				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/2337ac3c-0651-4671-bf50-47d5ed12eca2"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 115.57 30.48 0)
 		(unit 1)
@@ -9617,7 +9868,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 261.62 149.86 0)
+		(at 265.43 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9628,7 +9879,7 @@
 		(fields_autoplaced yes)
 		(uuid "c164a70f-1cf6-4516-9b6d-f6e61e854d74")
 		(property "Reference" "BT1"
-			(at 265.43 146.7484 0)
+			(at 269.24 146.7484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9639,7 +9890,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 265.43 149.2884 0)
+			(at 269.24 149.2884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9650,7 +9901,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC"
-			(at 261.62 148.336 90)
+			(at 265.43 148.336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9661,7 +9912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 148.336 90)
+			(at 265.43 148.336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9672,7 +9923,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 261.62 149.86 0)
+			(at 265.43 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9683,7 +9934,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 261.62 149.86 0)
+			(at 265.43 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9694,7 +9945,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 261.62 149.86 0)
+			(at 265.43 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9705,7 +9956,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 261.62 149.86 0)
+			(at 265.43 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9716,7 +9967,7 @@
 			)
 		)
 		(property "PartNumber" "BH-18650-PC"
-			(at 261.62 149.86 0)
+			(at 265.43 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
