@@ -217,6 +217,7 @@
       "track_widths": [
         0.0,
         0.12,
+        0.3,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -962,13 +963,13 @@
       },
       {
         "bus_width": 18,
-        "clearance": 0.2,
+        "clearance": 0.25,
         "line_style": 0,
         "name": "50ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6482,
+        "track_width": 0.6335,
         "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.3,
@@ -1016,12 +1017,12 @@
       },
       {
         "bus_width": 15,
-        "clearance": 0.12,
+        "clearance": 0.2,
         "name": "USB",
         "pcb_color": "rgb(255, 22, 32)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.19,
+        "track_width": 0.4295,
         "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.3,
@@ -1349,7 +1350,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Output/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -1520,7 +1521,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${DNP}"
+      "sort_field": "Reference"
     },
     "bus_aliases": {
       "I2C": [
@@ -1581,7 +1582,7 @@
         "uuid": "6b3d7a89-016e-44cc-aa76-b24fbbba08cf"
       }
     ],
-    "used_designators": "FID1-3,H1-4,IC1-3,R90,R99-101,R137-140,U1-2,U4-5,U9-10,U13,L4,L9,D9-14,C34,C39-43,ANT1,#PWR1,#PWR69,#PWR111,#PWR122,#PWR127,#PWR139-162,J1,J4,J14-17",
+    "used_designators": "TH3,FID1-3,BT2,H1-4,IC1-3,R90,R99-104,R137-140,U1-2,U4-5,U9-10,U13,U15,L4,L9,D9-14,C34,C39-44,ANT1,#PWR1,#PWR65,#PWR69,#PWR89,#PWR111,#PWR122,#PWR127,#PWR139-167,J1,J4,J14-17",
     "variants": []
   },
   "sheets": [
