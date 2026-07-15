@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_overlap|134335000|114750000|42e0f4ce-d0a5-43a1-8ac8-1c37742f8290|e5c21c80-de4a-424f-ac91-c7eb8ad026cd",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -218,6 +213,7 @@
         0.0,
         0.12,
         0.3,
+        0.6335,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -269,7 +265,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "${Revision}"
     },
     "layer_pairs": [
       {
@@ -895,7 +891,7 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
       "four_way_junction": "warning",
       "ground_pin_not_ground": "warning",
@@ -963,7 +959,7 @@
       },
       {
         "bus_width": 18,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "line_style": 0,
         "name": "50ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -1350,7 +1346,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "Output/",
+      "plot": "Gerbers",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -1362,7 +1358,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "Output/${REVISION}/BOM/PowerLineSensorPCB.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1402,7 +1398,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "PartNumber",
           "name": "PartNumber",
           "show": true
@@ -1423,7 +1419,7 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1582,7 +1578,7 @@
         "uuid": "6b3d7a89-016e-44cc-aa76-b24fbbba08cf"
       }
     ],
-    "used_designators": "TH3,FID1-3,BT2,L4,L9,H1-4,IC1-3,R90,R99-104,R137-140,U1-2,U4-5,U9-10,U13,U15,D9-14,C34,C39-44,ANT1,#PWR1,#PWR65,#PWR69,#PWR89,#PWR111,#PWR122,#PWR127,#PWR139-167,J1,J4,J14-17",
+    "used_designators": "TH3,FID1-3,BT2,H1-5,L4,L9,IC1-3,R90,R99-104,R137-140,U1-2,U4-5,U9-10,U13,U15,D9-14,C34,C39-44,ANT1,#PWR1,#PWR65,#PWR69,#PWR89,#PWR111,#PWR122,#PWR127,#PWR139-167,J1,J4,J14-17",
     "variants": []
   },
   "sheets": [
@@ -1635,7 +1631,9 @@
       "Celluar_GNSS"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "Revision": "0.1"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0

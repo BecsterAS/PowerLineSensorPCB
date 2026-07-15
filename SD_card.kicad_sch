@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "2437798e-addf-48ff-86ca-b99153c30e62")
 	(paper "A4")
+	(title_block
+		(rev "${Revision}")
+	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card"
 			(pin_names

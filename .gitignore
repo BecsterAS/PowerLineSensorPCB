@@ -44,3 +44,6 @@ fp-info-cache
 
 #python virtual enviemt
 .venv
+
+/Output
+Output*.zip

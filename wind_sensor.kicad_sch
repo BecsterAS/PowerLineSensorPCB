@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "27393545-3da6-45fc-ab7c-f4c94bac23a4")
 	(paper "A4")
+	(title_block
+		(rev "${Revision}")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
@@ -953,7 +956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 135.89 86.36 0)
 			(hide yes)
 			(show_name no)

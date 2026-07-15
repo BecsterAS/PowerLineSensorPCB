@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "fef52ecf-c7a3-4a18-844f-b0f9cc3971c6")
 	(paper "A4")
+	(title_block
+		(rev "${Revision}")
+	)
 	(lib_symbols
 		(symbol "BC_Miscellaneous:L_directional"
 			(pin_numbers
@@ -4431,7 +4434,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 127) (xy 167.64 127)
+			(xy 165.1 127) (xy 180.34 127)
 		)
 		(stroke
 			(width 0)
@@ -4448,16 +4451,6 @@
 			(type default)
 		)
 		(uuid "7f311488-e763-42f5-a416-b5072f0583f6")
-	)
-	(wire
-		(pts
-			(xy 248.92 81.28) (xy 265.43 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f3a3966-a19b-4bf8-8eef-8ba1a3f7041e")
 	)
 	(wire
 		(pts
@@ -5599,16 +5592,6 @@
 		)
 		(uuid "4c00b614-00b2-49d8-9352-cac51f79e099")
 	)
-	(label "EN_hall"
-		(at 248.92 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52058d91-df59-491f-b252-b7f303207997")
-	)
 	(label "QSPI_SS"
 		(at 63.5 168.91 180)
 		(effects
@@ -6047,7 +6030,7 @@
 	)
 	(global_label "LORA_~{RST}"
 		(shape output)
-		(at 167.64 127 0)
+		(at 180.34 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6057,7 +6040,7 @@
 		)
 		(uuid "79b54a50-f8d2-4b8c-8971-f06650845826")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.7571 127 0)
+			(at 192.4571 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6250,17 +6233,6 @@
 			(justify left)
 		)
 		(uuid "871c63fb-e1b2-453b-9ef4-3a3fa34d9937")
-	)
-	(hierarchical_label "EN_hall"
-		(shape output)
-		(at 265.43 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99b2bc75-97dc-4376-b25e-23b87be7d35c")
 	)
 	(hierarchical_label "A3"
 		(shape input)
@@ -9705,7 +9677,7 @@
 				)
 			)
 		)
-		(property "PartNumber" "W25Q128JVEIM "
+		(property "PartNumber" "W25Q128JVEIM"
 			(at 39.37 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9745,10 +9717,6 @@
 		)
 		(instances
 			(project "PowerLineSensorPCB"
-				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/14b821c4-7c41-42c4-a587-dc590b7e8e40"
-					(reference "U12")
-					(unit 1)
-				)
 				(path "/6b3d7a89-016e-44cc-aa76-b24fbbba08cf/eec70212-a38a-46df-9214-2ed1263aeba7"
 					(reference "U12")
 					(unit 1)

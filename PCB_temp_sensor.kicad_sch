@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "a8d76792-74d1-41fd-939b-30dd7bd0e349")
 	(paper "A4")
+	(title_block
+		(rev "${Revision}")
+	)
 	(lib_symbols
 		(symbol "BC_Sensors:P3T1755"
 			(exclude_from_sim no)

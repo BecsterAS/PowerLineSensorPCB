@@ -3,3 +3,7 @@
 (rule "USB clearance to GND planes 0.5mm"
   (constraint clearance (min 0.50mm))
   (condition "A.NetClass == 'USB' && B.NetName == 'GND'"))
+
+(rule "50 ohm clearance to GND planes 0.25mm"
+  (constraint clearance (min 0.25mm))
+  (condition "A.NetClass == '50ohm' && B.NetName == 'GND' && A.Type == 'Track"))
